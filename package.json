@@ -1,11 +1,14 @@
 {
   "name": "fs-tree-iterator",
   "version": "0.0.0",
-  "description": "WIP - nothing to see here",
+  "description": "Recursive file tree nanoiterator",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "standard": "^12.0.1"
+  },
+  "scripts": {
+    "test": "standard"
   },
   "repository": {
     "type": "git",
