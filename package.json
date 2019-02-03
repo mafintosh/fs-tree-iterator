@@ -1,0 +1,20 @@
+{
+  "name": "fs-tree-iterator",
+  "version": "0.0.0",
+  "description": "WIP - nothing to see here",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/fs-tree-iterator.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/fs-tree-iterator/issues"
+  },
+  "homepage": "https://github.com/mafintosh/fs-tree-iterator"
+}
