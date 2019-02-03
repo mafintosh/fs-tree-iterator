@@ -1,6 +1,6 @@
 {
   "name": "fs-tree-iterator",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Recursive file tree nanoiterator",
   "main": "index.js",
   "dependencies": {},
