@@ -11,7 +11,7 @@ function tree (folder) {
   function next (cb) {
     if (stack.length === 0) return cb(null, null)
     const top = stack.pop()
-    fs.stat(top, function (_, st) {
+    fs.lstat(top, function (_, st) {
       if (st && st.isDirectory()) return ondir(top, st, cb)
       if (!st) return next(cb)
       cb(null, { path: top, stat: st })
